@@ -13,7 +13,7 @@ class Calculator(tk.Tk):
           self.entry.grid(row=0, column=0, columnspan=4, sticky='nsew', padx=5, pady=5)
 
           # Buttons
-          buttons = [
+          buttons = [ 
               '7', '8', '9', '/',
               '4', '5', '6', '*',
               '1', '2', '3', '-',
